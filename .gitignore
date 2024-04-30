@@ -1,0 +1,17 @@
+# Python environment
+env/
+venv/
+env.bak/
+venv.bak/
+
+# App secrets / config -> commented out to show examples
+#.env
+#.env.dev
+
+# Bytecode / cache
+*.pyc
+__pycache__/
+
+# Editor Miscellaneous
+.vscode
+.idea/

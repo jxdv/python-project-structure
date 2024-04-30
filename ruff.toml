@@ -1,0 +1,13 @@
+exclude = [
+	"venv",
+	"env",
+	"__pycache__",
+]
+
+indent-width = 4
+target-version = "py310"
+
+[lint]
+ignore = [
+	"E501", # line too long
+]
