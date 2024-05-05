@@ -1,6 +1,6 @@
 class BaseException(Exception):
-	"""A base class exception for app_name exceptions."""
+	"""A base class exception for app_name errors."""
 
-class ConfigError(Exception):
+class ConfigError(BaseException):
 	def __init__(self, message):
 		self.message = message
